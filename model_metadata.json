@@ -1,0 +1,46 @@
+{
+    "class_indices": {
+        "bacterial_leaf_blight": 0,
+        "brown_spot": 1,
+        "healthy": 2,
+        "leaf_blast": 3,
+        "leaf_scald": 4,
+        "narrow_brown_spot": 5,
+        "neck_blast": 6,
+        "rice_hispa": 7,
+        "sheath_blight": 8,
+        "tungro": 9
+    },
+    "class_names": {
+        "0": "bacterial_leaf_blight",
+        "1": "brown_spot",
+        "2": "healthy",
+        "3": "leaf_blast",
+        "4": "leaf_scald",
+        "5": "narrow_brown_spot",
+        "6": "neck_blast",
+        "7": "rice_hispa",
+        "8": "sheath_blight",
+        "9": "tungro"
+    },
+    "label_map": {
+        "healthy": "Daun Sehat",
+        "bacterial_leaf_blight": "Hawar Daun Bakteri",
+        "brown_spot": "Bercak Cokelat",
+        "leaf_blast": "Blast Daun",
+        "leaf_scald": "Layu Daun",
+        "narrow_brown_spot": "Bercak Cokelat Sempit",
+        "neck_blast": "Blast Leher",
+        "rice_hispa": "Hama Penggerek Daun",
+        "sheath_blight": "Hawar Pelepah",
+        "tungro": "Tungro"
+    },
+    "num_classes": 10,
+    "input_shape": [
+        224,
+        224,
+        3
+    ],
+    "model_architecture": "MobileNetV2",
+    "trained_date": "2025-11-16 09:26:57.389186"
+}

@@ -1,0 +1,6 @@
+streamlit
+numpy
+Pillow
+tensorflow==2.20.0
+onnxruntime
+tf2onnx
